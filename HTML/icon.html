@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+        <style>
+               .fab{
+                font-size: 40px;
+                color:blue;
+               
+                display:block;
+                 
+              }
+              body{
+                display:grid;
+                place-items: center;
+                width:100%;
+                height:100vh;
+              }
+              .container{
+                display:flex;
+                
+              }
+              .amazon{
+                margin:0 60px;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+               position:relative;
+              }
+              .tooltip{
+                font-size:20px;
+                background:black;
+                color:white;
+              padding: 10px 10px;
+                text-align:center;
+                border-radius:20px;
+                position:absolute;
+                top:50px;
+                
+                
+                visibility:hidden;
+                width:100px;
+                
+                
+              
+                
+              }
+          .tooltip:before {
+            position:absolute;
+            content:"";
+            height:10px;
+            width:10px;
+            background:black;
+            top:1px;
+            left:45%;
+            transform:translateY(-50%) rotate(45deg);
+          }
+         
+          
+           .amazon:hover .tooltip{
+            visibility: visible;
+            
+           }
+           i:hover{
+            color:red;
+           
+           }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="amazon">
+                <div class="tooltip">pooja</div>
+              <span> <i class="fab fa-home"></i></span>
+        </div>
+        <div class="amazon">
+            <div class="tooltip">i can not live without you</div>
+       <span> <i class="fab fa-instagram"></i></span>
+    </div>
+    <div class="amazon">
+        <div class="tooltip">i can not imagine my life withou you</div>
+   <span> <i class="fab fa-twitter"></i></span>
+</div>
+<div class="amazon">
+  <div class="tooltip">iam just kidding</div>
+<span> <i class="fab fa-facebook"></i></span>
+</div>
+        
+
+            
+        </div>
+    </body>
+</html>

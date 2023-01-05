@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>JS Bin</title>
+  <style>
+    
+    *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      
+    }
+  </style>
+</head>
+<body>
+<div class="maincontainer">
+  
+    <h2>contact us</h2>
+    <div class="form">
+   <input type="text" placeholder="name" name="name" id="name">
+     <input type="text" placeholder="name" name="name" id="name">
+     <input type="text" placeholder="name" name="name" id="name">
+    </div>
+    <div>
+    <p>prefferd method of communication</p>
+    <input type="radio" name="method" id="method">male
+    <input type="radio" name="method" id="method">male
+    <textarea name="message" placeholder="nessage" ></textarea>
+    <button>submit</button>
+    </div>
+  
+  </div>
+</body>
+</html>

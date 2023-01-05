@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                margin:0%;
+                padding:0%;
+                box-sizing: border-box;
+            }
+            body{
+                width:100%;
+                height: 100vh;
+                background: lightblue;
+              display:flex;
+              justify-content:center;
+              align-items:center;
+             
+            }
+          .container{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            background:black;
+            width:25rem;
+            color:white;
+            padding:5em 2rem;
+            border-radius:20px;
+            position:relative;
+            
+          }
+          h3{
+            font-size:30px;
+            font-weight:bold;
+            margin-bottom:2rem;
+          }
+          .first,.second{
+            margin:1rem;
+            padding:10px;
+            border-radius:20px;
+            text-align:center;
+            color:white;
+            width:15rem;
+            border:2px solid cyan;
+            background:transparent;
+            outline:none;
+            font-size:1.2rem;
+            cursor:pointer;
+           
+            
+          }
+         .first:hover{
+           border-color:lightblue;
+         
+          }
+             .second:hover{
+            border-color:blue;
+               
+          }
+          
+          button{
+           
+            margin-top:3rem;
+            padding:1rem 3rem;
+            border-radius:30px;
+            border:2px solid cyan;
+           background:transparent;
+            color:white;
+            font-size:1rem;
+            cursor:pointer;
+            
+          }
+        
+          
+          
+          span{
+            position:absolute;
+            right:20px;
+            margin-top:10px;
+            font-size:1.2rem
+          }
+         button:hover
+          {
+           border-color:green;
+            background-color:lightblue;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h3>login</h3>
+            <input type="text" placeholder="username" name="username" class="first">
+            <input type="text" placeholder="password" name="username" class="second">
+           <div class="btn" >
+             
+             <span>forget password?</span>
+        
+        </div>
+          <button>login</button>
+    </body>
+       
+</html>
