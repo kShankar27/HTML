@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                padding: 0%;
+                margin: 0%;
+                box-sizing: border-box;
+            }
+            body{
+                display: grid;
+                place-items: center;
+                background-color: aqua;
+              width:100%;
+                height: 100vh;
+                color:white;
+                
+
+            }
+            .container{
+                border-radius: 20px;
+                background-color: black;
+                display: flex;
+             flex-direction: column;
+             flex-wrap: wrap;
+            
+                padding:4rem;
+                text-align: center;
+                position: relative;
+                
+              
+            }
+           
+                
+
+            
+            img{
+                width:150px;
+                height: 150px;
+                border-radius:50%;
+               position: absolute;
+               top:-20%;
+               right:27%;
+            }
+            input{
+            
+                border:none;
+                border-bottom:1px solid black;
+                text-align: center;
+                height: 40px;
+                width:200px;
+                padding:0;
+                margin-top: 1rem;
+                border-color: blue;
+                outline: none;
+                background-color: black;
+            
+            }
+            button{
+              width:100%;
+              outline:none;
+             margin-bottom:1rem;
+              border:none;
+              border-radius: 20px;
+              color:white;
+             margin-top: 2rem;
+              padding:.5rem;
+              background: lightcoral;
+              font-size: 20px;
+             display: block;}
+
+             a{
+                text-decoration: none;
+                font-size: 20px;
+                margin-top: 1rem;
+                color:white;
+                
+             }
+             h3{
+                margin-top: 1rem;
+             }
+             .anchr{
+                text-decoration: underline;
+                color:blue;
+             }
+             .anchr:hover{
+                color:white;
+
+             }
+             @media screen and (min-width: 500px) {
+                .container{
+                    background:white;
+                    color:black;
+                }
+                input{
+                    background-color: white;
+                }
+                a{
+                    color:black;
+                }
+                
+             }
+             
+
+        </style>
+        <div class="container">
+           
+            <div class="image">
+            <img src="C:\Users\91970\OneDrive\Pictures\5869575.webp"/>
+            </div>
+            <div>
+                <h3>welcome back!</h3>
+            <h1>virat kohli </h1>
+           
+            <input type="text" id="name" placeholder="enter your favourite player">
+           
+                <button type="submit">submit</button>
+                <a href="#">if you choose another player <br></a>
+                <a href="" class="anchr" target="_blank">click it</a>
+           
+         
+            
+
+        </div>
+    </head>
+</html>
